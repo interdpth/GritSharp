@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2b32c701-60b2-46cf-8def-8c67c5969c68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{ae143d70-56b4-4e7b-b28b-903c602d78e4}</UniqueIdentifier>
+      <Extensions>*.h</Extensions>
+    </Filter>
+    <Filter Include="file">
+      <UniqueIdentifier>{6824f109-089e-4946-8ca9-3c90d961548e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cldib_adjust.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="cldib_conv.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="cldib_core.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="cldib_test.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="cldib_tmap.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="cldib_tools.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="cldib_wu.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="cldib_bmp.cpp">
+      <Filter>file</Filter>
+    </ClCompile>
+    <ClCompile Include="cldib_img.cpp">
+      <Filter>file</Filter>
+    </ClCompile>
+    <ClCompile Include="cldib_pal.cpp">
+      <Filter>file</Filter>
+    </ClCompile>
+    <ClCompile Include="cldib_pcx.cpp">
+      <Filter>file</Filter>
+    </ClCompile>
+    <ClCompile Include="cldib_png.cpp">
+      <Filter>file</Filter>
+    </ClCompile>
+    <ClCompile Include="cldib_tga.cpp">
+      <Filter>file</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cldib.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="cldib_core.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="cldib_quant.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="cldib_tmap.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="cldib_tools.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="winglue.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="cldib_files.h">
+      <Filter>file</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cldib.chm" />
+    <None Include="cldib.dox" />
+  </ItemGroup>
+</Project>

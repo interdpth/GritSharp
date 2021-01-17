@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{3ddbb522-a8aa-48c4-ae22-de046d0da060}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{8f182c2a-3f35-4fb4-a99c-d2ff4b4a41aa}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cprs.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="grit.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="grit_core.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="logger.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="pathfun.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GritNative.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cprs.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="cprs_huff.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="cprs_lz.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="cprs_rle.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="grit_core.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="grit_misc.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="grit_prep.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="grit_shared.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="grit_xp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="logger.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="pathfun.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="libgrit.chm" />
+    <None Include="libgrit.dox" />
+  </ItemGroup>
+</Project>
