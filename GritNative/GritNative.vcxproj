@@ -73,7 +73,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
     <IncludePath>..\cldib;..\libgrit;$(IncludePath)</IncludePath>
-    <LibraryPath>..\libgrit\;..\cldib;$(LibraryPath)</LibraryPath>
+    <LibraryPath>..\libgrit\;C:\Users\Endeavor3\Documents\GitHub\GritSharpGithub\cldib;$(LibraryPath)</LibraryPath>
     <OutDir>$(SolutionDir)\bin\$(Configuration)\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">

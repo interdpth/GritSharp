@@ -1,0 +1,7 @@
+
+.vs/
+bin/
+*.lib
+**/debug/
+*/release/
+*/x64/

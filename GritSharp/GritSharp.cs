@@ -9,6 +9,14 @@ namespace GritSharp
 {
     public class GritSharp
     {
+        [StructLayout(LayoutKind.Sequential)]
+        public partial struct RECORD
+        {
+            public int width;
+            public int height;
+            public byte[] data;        
+        }
+
         [DllImport("GritNative.dll")]
         public static extern IntPtr InitGrit();
 
@@ -32,6 +40,9 @@ namespace GritSharp
 
         [DllImport("GritNative.dll")]
         public static extern Int32 GetBitmapLen(IntPtr ret);
+
+        [DllImport("GritNative.dll")]
+        public static extern  void RLECOmpress(byte[] src, int len, ref RECORD rec); 
         private IntPtr _gritRecord;
 
 
@@ -64,6 +75,19 @@ namespace GritSharp
 
 
             return dat;
+        }
+
+
+        public  byte[] GBARLEComp(byte[] data)
+        {
+            RECORD newRecord = new RECORD();
+            RLECOmpress(data, data.Length, ref newRecord);
+
+            byte[] returnv= newRecord.data;
+
+            Console.WriteLine("Debug");
+            return returnv;
+
         }
     }
 }

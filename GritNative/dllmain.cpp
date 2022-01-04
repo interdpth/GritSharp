@@ -131,7 +131,6 @@ extern "C" {
 		if (rec != NULL) delete rec;
 
 		rec = newInterface->run_main(numargs, params);
-		
 		LocalFree(params);
 		return rec;
     }
@@ -145,4 +144,18 @@ extern "C" {
     {
         return src->areaRight * src->areaBottom;
     }
+
+
+	__declspec(dllexport) void RLECOmpress(unsigned char* src,int len, RECORD& newRecord)
+	{
+		RECORD* srcRecord = new RECORD();
+		srcRecord->data = src;
+		srcRecord->width = 1;
+		srcRecord->height = len;
+
+		
+		int compSize = rle8gba_compress(&newRecord,srcRecord );
+		
+	}
+
 }

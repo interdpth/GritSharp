@@ -1,0 +1,10 @@
+C:\Users\Endeavor3\Documents\GitHub\GritSharpGithub\GritSharp.UnitTests\bin\Debug\GritSharp.UnitTests.dll
+C:\Users\Endeavor3\Documents\GitHub\GritSharpGithub\GritSharp.UnitTests\bin\Debug\GritSharp.UnitTests.pdb
+C:\Users\Endeavor3\Documents\GitHub\GritSharpGithub\GritSharp.UnitTests\bin\Debug\GritSharp.dll
+C:\Users\Endeavor3\Documents\GitHub\GritSharpGithub\GritSharp.UnitTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Endeavor3\Documents\GitHub\GritSharpGithub\GritSharp.UnitTests\bin\Debug\GritSharp.pdb
+C:\Users\Endeavor3\Documents\GitHub\GritSharpGithub\GritSharp.UnitTests\obj\Debug\GritSharp.UnitTests.csprojAssemblyReference.cache
+C:\Users\Endeavor3\Documents\GitHub\GritSharpGithub\GritSharp.UnitTests\obj\Debug\GritSharp.UnitTests.csproj.CoreCompileInputs.cache
+C:\Users\Endeavor3\Documents\GitHub\GritSharpGithub\GritSharp.UnitTests\obj\Debug\GritSharp.UnitTests.csproj.CopyComplete
+C:\Users\Endeavor3\Documents\GitHub\GritSharpGithub\GritSharp.UnitTests\obj\Debug\GritSharp.UnitTests.dll
+C:\Users\Endeavor3\Documents\GitHub\GritSharpGithub\GritSharp.UnitTests\obj\Debug\GritSharp.UnitTests.pdb
